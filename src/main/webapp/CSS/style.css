@@ -1,0 +1,209 @@
+ body {
+    overflow-x: hidden;
+    background-color: #1e1e1e;
+    /* color: #bcc0c6;
+    background-color: #1b1b1c;
+    background-color: #9ea9b4; */
+    color: white;
+    font-family: 'Rubik', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+h2 {
+    color: red;
+    font-weight: 600;
+    font-size: 3rem;
+}
+
+h4 {
+	font-weight: 600;
+	font-size: 2rem;
+    color: #c4c5c5;
+}
+
+header {
+    padding: 1.5rem 2rem 0.2rem 1.6rem;
+    margin-bottom: 2rem;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.nav-active{
+	background-color: red;
+    border-radius: 0 300px 300px 0;
+}
+
+
+.nav-list {
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.5rem;
+    /* width: fit-content; */
+    /* padding: 1.5rem ; */
+    
+}
+
+.last {
+	margin-top: auto;
+}
+
+.logout{
+	margin-top: auto;
+}
+
+
+
+.nav-list li{
+    padding: 0 2.5rem  0 1.8rem;
+}
+
+.nav-list li:hover {
+    background-color: red;
+    border-radius: 0 300px 300px 0;
+}
+
+nav-list li:active {
+    background-color: red;
+    border-radius: 0 300px 300px 0;
+}
+
+
+.nav-link {
+   margin-top: 1rem;
+}
+
+
+.nav-list li a{
+    display: flex;
+    align-items: center;
+    font-size: 1.6rem;
+    font-weight: 60000;
+    color: white;
+    text-decoration: none;
+}
+
+
+
+.sidebar-nav{
+    background-color: #3b3c3c;
+    width: fit-content;
+    padding-right: 2rem;
+    height: 100vh;
+}
+
+
+
+
+main {
+    background-color: #1e1e1e;
+    margin: 8rem 15rem 4rem 25rem ;
+}
+
+section{
+	min-height: 100vh;
+	padding-top: 8rem;
+}
+
+
+form {
+    background-color: #3b3c3c;
+    padding: 2rem 2rem 2rem 2rem;
+   
+}
+
+.form-header{
+    margin-bottom: 2rem;
+}
+
+label {
+    margin-bottom: 0.3rem;
+    font-size: 1.4rem;
+}
+
+.ep-box{
+    margin-bottom: 1.5rem;
+}
+
+.sq-container {
+    background-color: #3b3c3c;
+    padding: 2rem;
+    margin-bottom: 6rem;
+  
+}
+
+table {
+    width: 100%;
+}
+
+th {
+    background-color: #292a2a;
+    color: #b1b1b1;
+}
+
+
+td {
+   border-bottom: 1px solid #767777;
+}
+
+th, td {
+    padding: 16px 8px;
+}
+
+tr:hover {
+    background-color: #2f3030;
+}
+
+.login-container{
+	display: flex;
+	align-items: center;
+	justify-items:center;
+}
+ 
+ .login-card{
+   width: 500px;
+   height: min-content;
+ }
+ 
+ 
+ 
+    .btn {
+      margin-right: 10px;
+      font-size: 1.2rem;
+      color: white;
+      padding: 8px 18px;
+     }
+     
+     .nav-list li:active {
+       background-color: red;
+       border-radius: 0 300px 300px 0;
+       color: white;
+       font-weight: 400;
+     }
+     
+     .sq-container {
+        background-color: #3b3c3c;
+        padding: 2rem;
+        margin-bottom: 6rem;
+        border-radius: 5px;
+     }
+     
+     .last{
+        margin-top: auto;
+     }
+     
+     th {
+       font-size: 1.2rem;
+     }
+     
+     td {
+      font-size: 1.1rem;
+     }
